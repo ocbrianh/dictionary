@@ -1,0 +1,4 @@
+#!/bin/bash
+
+IMG_NAME=composer
+docker run --rm -v "$HOME/.ssh:/root/.ssh" -v "$(pwd):/app" $IMG_NAME composer "$@"

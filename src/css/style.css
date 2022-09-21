@@ -1,0 +1,115 @@
+body {
+	background: #bdbdbd;
+	padding-top: 1rem;
+}
+
+.header h1 {
+	font-size: 3.125rem;
+	line-height: 3.625rem;
+	color: white;
+}
+
+.header-col {
+	display: flex;
+	align-items: center;
+}
+
+.header-col svg {
+	margin-right: 2rem;
+}
+
+form {
+	background: white;
+	border-radius: 1rem;
+}
+
+form input[type="search"] {
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+form h3,
+form label {
+	font-size: 0.75rem;
+	color: #00000061;
+}
+
+form#definition-form button {
+	background: #2ac0c0;
+	border-radius: 0.25rem;
+	border: none;
+	font-size: 0.813rem;
+	line-height: 1.875rem;
+	min-width: 4.688rem;
+	color: white;
+}
+
+#definition-form {
+	background: white;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+#definition-text {
+	border-color: #2ac0c0;
+}
+
+.error-message {
+	color: red;
+}
+
+.success-message {
+	color: green;
+}
+
+form#definition-form p {
+	font-size: 24px;
+}
+
+form#definition-form ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+form#definition-form ul.definition-list {
+	list-style-type: circle;
+	padding-left: 3.125rem;
+}
+
+form#definition-form ul.recent-search-list {
+	margin-bottom: 2.625rem;
+}
+
+form#definition-form ul li {
+	margin-bottom: 1rem;
+}
+ul li {
+	color: #33cccc;
+	line-height: 1.172rem;
+}
+
+hr {
+	padding: 1rem 0;
+}
+
+button.btn.border {
+	border: 1px solid transparent !important;
+}
+
+input.border {
+	border: 1px solid transparent !important;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+	background-color: #33cccc !important;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active {
+	background-color: #33cccc;
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+	box-shadow: none !important;
+}

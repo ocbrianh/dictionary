@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary Task</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router@2.0.0"></script>
+  <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./js/content.vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
+</head>
+<body>
+  <div id="form-app">
+    <div class="container-fluid">
+      <div class="row header">
+        <div class="col-sm-5 col-md-4 header-col">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M33 9.42989C33 4.78135 29.2187 1 24.5704 1C21.3114 1 18.3906 2.89803 17.0001 5.7244C15.6094 2.89803 12.6883 1 9.42965 1C4.78134 1 1 4.78135 1 9.42989C1 12.6863 2.83332 15.5579 5.63867 16.9585C2.83332 18.3589 1 21.2305 1 24.487C1 29.1355 4.78134 32.9169 9.42965 32.9169C12.6883 32.9169 15.6094 31.0188 17.0001 28.1925C18.3906 31.0188 21.3114 32.9169 24.5704 32.9169C29.2187 32.9169 33 29.1355 33 24.487C33 21.2305 31.1667 18.3589 28.3613 16.9585C31.1667 15.5579 33 12.6863 33 9.42989Z" fill="#33CCCC" stroke="white" stroke-width="2"/>
+            </svg>
+            
+          <h1>Acme Company</h1>
+        </div>
+      </div>
+      <div class="row content">
+        <div class="col-sm-5 col-md-4">
+          <dictionary-form></dictionary-form>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  <script>
+    Vue.config.devtools = true;
+    new Vue({ el: '#form-app' })
+  </script>
+</body>
+</html>
